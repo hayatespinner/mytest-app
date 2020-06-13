@@ -75,13 +75,26 @@ app.post("/delete/:id", (req, res) => {
   );
 });
 
-//編集画面
+//編集画面を表示
 app.get("/edit/:id", (req, res) => {
+  
+  //選択したアイテム名を表示
   connection.query(
     "SELECT * FROM items WHERE id=?",
     [req.params.id],
     (error, results) => {
       res.render("edit.ejs", {item:results[0]});
+    }
+  );
+});
+
+//編集内容を更新
+app.post('/update/:id', (req, res) => {
+  connection.query(
+    "UPDATE items SET name=? WHERE id=?",
+    [req.body.itemName, req.params.id],
+    (error, results) => {
+      res.redirect("/index");
     }
   );
 });
