@@ -1,50 +1,50 @@
 /* reset ================================ */
 * {
     box-sizing: border-box;
-  }
-  
-  html {
+}
+
+html {
     font-size: 100%;
     font-family: 'Hiragino Sans', sans-serif;
     line-height: 1.7;
     letter-spacing: 1px;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     background-color: #f6faff;
     color: #6c7686;
-  }
-  
-  ul, li {
+}
+
+ul, li {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  a {
+}
+
+a {
     display: block;
     text-decoration: none;
     color: #2d3133;
     font-size: 14px;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     transition: all 0.3s ease;
-  }
-  
-  
-  h1, h2, h3, h4, h5, h6, p {
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-weight: 600;
-  }
-  
-  
-  /* top ================================ */
-  .top-wrapper {
+}
+
+
+/* top ================================ */
+.top-wrapper {
     max-width: 1200px;
     min-width: 920px;
     display: flex;
@@ -52,35 +52,35 @@
     align-items: center;
     margin: 0 auto;
     padding: 60px;
-  }
-  
-  .top-detail {
+}
+
+.top-detail {
     width: 36%;
     min-width: 320px;
     margin-top: -40px;
-  }
-  
-  .top-detail .subtitle {
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-  
-  .top-detail .title {
+}
+
+.top-detail .subtitle {
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 4px;
+}
+
+.top-detail .title {
     font-size: 54px;
     line-height: 66px;
     letter-spacing: 2px;
     margin-bottom: 24px;
-  }
-  
-  .top-detail .description {
+}
+
+.top-detail .description {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 0.5px;
     margin-bottom: 40px;
-  }
-  
-  .top-detail .index-button {
+}
+
+.top-detail .index-button {
     width: 184px;
     height: 48px;
     text-align: center;
@@ -90,70 +90,70 @@
     background-color: #ffffff;
     border: 2px solid #58d2b2;
     border-radius: 2px;
-  }
-  
-  .top-detail .index-button:hover {
+}
+
+.top-detail .index-button:hover {
     color: #ffffff;
     background-color:  #58d2b2;
-  }
-  
-  
-  .index-button {
+}
+
+
+.index-button {
     cursor: pointer;
-  }
-  
-  .top-image {
+}
+
+.top-image {
     width: 64%;
     text-align: center;
     overflow: hidden;
-  }
-  
-  .top-image img {
+}
+
+.top-image img {
     width: 88%;
-  }
-  
-  /* header ================================ */
-  header {
+}
+
+/* header ================================ */
+header {
     height: 56px;
     background-color: #ffffff;
     border-bottom: 1px solid #f0f4f9;
-  }
-  
-  .header-logo {
+}
+
+.header-logo {
     margin-left: 56px;
     font-weight: 600;
     font-size: 20px;
     line-height: 56px;
     color: #6c7686;
     display: inline;
-  }
-  
-  .header-logo:hover {
+}
+
+.header-logo:hover {
     color: #58d2b2;
-  }
-  
-  /* container ================================ */
-  .container {
+}
+
+/* container ================================ */
+.container {
     width: 80%;
     min-width: 360px;
     max-width: 720px;
     margin: 0 auto;
     margin-top: 56px;
-  }
-  
-  .container-header {
+}
+
+.container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 12px;
-  }
-  
-  .container-header h1 {
+}
+
+.container-header h1 {
     font-size: 24px;
-  }
-  
-  /* index ================================ */
-  .table-head {
+}
+
+/* index ================================ */
+.table-head {
     display: flex;
     background-color: #b7cadc;
     border-radius: 2px 2px 0 0;
@@ -161,32 +161,32 @@
     font-size: 16px;
     line-height: 46px;
     color: #ffffff;
-  }
-  
-  .id-column {
+}
+
+.id-column {
     width: 72px;
     text-align: center;
-  }
-  
-  .table-body {
+}
+
+.table-body {
     background-color: #ffffff;
-  }
-  
-  .table-body li {
+}
+
+.table-body li {
     height: 72px;
     border: 1px solid #f0f4f9;
     border-top: none;
     line-height: 74px;
     display: flex;
-  }
-  
-  .table-body .id-column {
+}
+
+.table-body .id-column {
     font-size: 16px;
     color: #bac6d3;
-  }
-  
-  .table-body .name-column {
+}
+
+.table-body .name-column {
     font-size: 14px;
     font-weight: 500;
     color: #8491a5;
-  }
+}

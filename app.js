@@ -4,13 +4,8 @@ var app = express();
 //// CSSや画像ファイルを置くフォルダを指定する部分
 app.use(express.static('public'));
 
-// HTTPリクエストを受け取る部分
-app.get('/', (req, res) => {
-  res.render("hello.ejs");
-});
-
 //topを表示
-app.get("/top", (req,res)=>{
+app.get("/", (req,res)=>{
   res.render("top.ejs");
 });
 
