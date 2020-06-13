@@ -22,8 +22,6 @@ connection.connect((err) => {
   console.log('success');
 });
 
-
-
 //topを表示
 app.get("/", (req,res)=>{
   res.render("top.ejs");
@@ -36,7 +34,7 @@ app.get('/index', (req, res) => {
     "SELECT * FROM items",
     (error, results) => {
       console.log(results);
-      res.render('index.ejs');
+      res.render('index.ejs', { items: results});
     }
   );
 });

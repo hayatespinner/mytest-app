@@ -20,14 +20,9 @@
                     <span>買うもの</span>
                 </div>
 
-                <% const items = [
-                {id: 1, name: 'だいこん'},
-                {id: 2, name: 'にんじん'},
-                {id: 3, name: 'たまねぎ'}
-                ]; %>
-
                 <ul class="table-body">
                     
+                    <!--データベース（items）からデータを出力、javascriptのforEachを用いる-->
                     <% items.forEach((item) =>{ %>
                         <li>
                             <span class="id-column">
